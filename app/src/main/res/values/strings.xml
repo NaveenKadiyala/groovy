@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Groovy</string>
+    <string name="playlists">Playlists</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="playlist_image">Playlist Image</string>
+    <string name="generic_error">Network Issue</string>
+</resources>
