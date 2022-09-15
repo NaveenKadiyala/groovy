@@ -25,6 +25,12 @@ jobs:
       - name: UnitTests
         run: bash ./gradlew test --stacktrace
 
+      - name: Unit tests results
+        uses: actions/upload-artifact@v1
+        with:
+            name: unit-tests-results
+            path: app/build/reports/tests/testDebugUnitTest/index.html
+
   apk:
     name : Generate APK
     runs-on: ubuntu-latest
