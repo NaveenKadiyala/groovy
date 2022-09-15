@@ -37,7 +37,7 @@ class PlaylistDetailsServiceShould : BaseUnitTest() {
     fun emitsErrorResultWhenNetworkFails() = runBlockingTest {
         val service = mockErrorCase()
         assertEquals(
-            "Something went wrong",
+            "Something went wron",
             service.getPlaylistDetails(id).first().exceptionOrNull()?.message
         )
     }
